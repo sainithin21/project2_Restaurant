@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project3</title>
+    <style>
+
+        *
+        {
+           padding:6px; 
+        }
+        body{
+      background-image: url('https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png');
+
+      background-size:cover;
+        }
+
+        a
+        {
+            text-decoration: none;
+            font-size: x-large;
+            color:rgb(227, 227, 38);
+            font-weight: 600;
+        }
+
+
+        header
+        {
+           display:flex;
+           justify-content: space-between;
+           margin-bottom:20px;
+        }
+        .header_start
+        {
+            display:grid;
+            justify-content:start;
+        }
+
+        .header_middle
+        {
+            display:flex;
+            justify-content:center;
+            gap:40px;
+
+        }
+
+        .header_end
+        {
+            display:grid;
+            justify-content:end;
+
+        }
+
+        #btn1
+        {
+            background-color: rgb(243, 54, 54);
+            height:40px;
+            width :80px;
+        }
+      
+        .main_section
+        {
+            display:grid;
+            font-size:80px;
+            justify-content: center;
+            margin-left: 220px;
+            margin-right: 220px;
+            color:rgb(195, 195, 26);
+            
+        }
+
+        section
+        {
+            display:grid;
+            align-items: center;
+            gap:20px;
+        }
+        .btn2
+        {
+           
+            background-color: rgb(243, 54, 54);
+            height:50px;
+            width :200px;
+
+            
+        }
+       
+        .main_section_btn
+        {
+            display: grid;
+            justify-content: center;
+        }
+
+        footer
+        {
+            display:flex;
+            justify-content: end;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+      
+        <nav class="header_start">
+        <img src="https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/white-logo.png" alt="logo" height="40px">
+         </nav>
+
+         <nav class="header_middle">
+
+        <a href="">Our Menu</a><a href="">Maps</a><a href="">About</a> <a href="">Contact</a>
+
+         </nav>
+
+<nav class="header_end">
+        <button id="btn1">Order</button>
+    </nav>
+
+    </header>
+
+    <section>
+        <nav class="main_section">
+            A Restraunt That Only Serves a Delicious Food
+        </nav>
+        <nav class="main_section_btn">
+            <button class="btn2">Read our menu</button>
+        </nav>
+    </section>
+
+    <footer>
+        <img src="https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/scrool.png" alt="scrool_logo"  height="100px">
+    </footer>
+    
+</body>
+</html>
